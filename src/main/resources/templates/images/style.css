@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    background-image: url('background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #333;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 400px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content h1{
+    font-style: italic;
+}
+.logo {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #3b030b; /* Adjust to match the purple in the image */
+    font-size: 2em; /* Adjust font size as needed */
+    margin-bottom: 30px;
+    font-style: oblique; 
+}
+
+form {
+    width: 100%;
+}
+
+.input-group {
+    margin-bottom: 15px; 
+    /* Adjusted spacing */
+}
+
+input[type="text"],
+input[type="password"] {
+    width: calc(100% - 40px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.password-toggle {
+    position: relative;
+    top: -35px;
+    left: calc(100% - 30px);
+    cursor: pointer;
+}
+
+.password-toggle img {
+    width: 20px;
+}
+
+.links-container {
+    display: flex;
+    justify-content: space-between; /* Align links to left and right */
+    margin-bottom: 20px; /* Space between inputs and button */
+}
+
+.forgot-password, .signup-link {
+    color: #500522; /* Adjust to match the purple in the image */
+    text-decoration: none;
+    font-size: 0.9em; /* Slightly smaller font size */
+}
+
+.login-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #2c0204; /* Adjust to match the purple in the image */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.or-divider {
+    margin: 20px 0;
+    text-align: center;
+    color: #777;
+}
+
+.google-login {
+    width: 100%;
+    padding: 12px;
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.google-login img {
+    width: 20px;
+    margin-right: 10px;
+}

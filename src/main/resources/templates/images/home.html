@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lattified Cafe</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Lucida Calligraphy", cursive;
+            font-style: italic;
+        }
+        
+        body {
+            background-color: #e0c3a2;
+        }
+
+        .hero {
+            width: 100%;
+            height: 350px;
+            background: url('cafe-bg.jpg') no-repeat center center/cover;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+            padding: 15px;
+        }
+
+
+        .nav {
+            display: flex;
+            gap: 20px;
+            font-size: 16px;
+        }
+
+        .nav a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+        .left {
+            margin-left: 20px;
+        }
+
+        .right {
+            margin-right: 20px;
+        }
+        .container {
+            text-align: center;
+            padding: 30px 10%;
+        }
+
+        h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 24px;
+            margin-bottom: 15px;
+        }
+
+        .menu-items {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .menu-item {
+            text-align: center;
+        }
+
+        .menu-item img {
+            width: 80px;
+            height: 80px;
+            border-radius: 10px;
+        }
+
+        .contact {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 10px;
+        }
+
+        .social-icons img {
+            width: 25px;
+            height: 25px;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px 5%;
+            }
+            h2 {
+                font-size: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="hero">
+        <div class="nav left">
+            <a href="#" style="font-size: 30px;">About</a>
+            <a href="#" style="font-size: 30px;">Menu</a>
+        </div>
+        <div class="nav right">
+            <a href="#" style="font-size: 30px;">Visit Us</a>
+        </div>
+    </div>
+
+    <div class="container">
+        <p style="font-size: 30px;"><b>Our Story</b></p>
+        <p>Lattify is a haven where every cup tells a story, blending creative coffee with a touch of magic. It's more than a cafe – it's your moment to pause, connect, and dream beyond the ordinary.</p>
+
+        <div class="menu-items">
+            <div class="menu-item">
+                <img src="bubble tea.jpg" alt="Tea">
+                <p>TEA</p>
+            </div>
+            <div class="menu-item">
+                <img src="latte.jpeg" alt="Coffee">
+                <p>COFFEE</p>
+            </div>
+            <div class="menu-item">
+                <img src="pasteries.jpg" alt="Pastries">
+                <p>PASTRIES</p>
+            </div>
+            <div class="menu-item">
+                <img src="healthy bites.jpg" alt="Healthy Bites">
+                <p>HEALTHY BITES</p>
+            </div>
+            <div class="menu-item">
+                <img src="beverages.jpeg" alt="Beverages">
+                <p>BEVERAGES</p>
+            </div>
+            <div class="menu-item">
+                <img src="light bites.jpg" alt="Light Bites">
+                <p>LIGHT BITES</p>
+            </div>
+        </div>
+
+        <div class="contact">
+            <h2>VISIT US</h2>
+            <p>Email: lattify@gmail.com</p>
+            <p>Phone: +91 98765 43210</p>
+            <p>For inquiries, visit related Lattify stories and websites.</p>
+        </div>
+
+        <div class="social-icons">
+            <img src="facebook.png" alt="Facebook">
+            <img src="instagram.png" alt="Instagram">
+            <img src="linkedin.png" alt="LinkedIn">
+        </div>
+    </div>
+
+</body>
+</html>
