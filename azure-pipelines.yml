@@ -7,7 +7,7 @@ trigger:
 - athika
 
 pool:
-  vmImage: ubuntu-latest
+  name: 'devops_agent'
 
 steps:
 - task: Maven@3
